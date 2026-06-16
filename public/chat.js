@@ -18,7 +18,7 @@ let chatHistory = [
         content: "👋 Hello! I'm Fly AI.\nAsk me anything — travel, tech, or just chat.",
     },
 ];
-let isProcessing = false;
+let isProcessing = true;
 
 // Auto-resize textarea as user types
 userInput.addEventListener("input", function () {
